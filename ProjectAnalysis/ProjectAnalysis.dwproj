@@ -8,32 +8,32 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Project Management.cube</Name>
-      <FullPath>Project Management.cube</FullPath>
+      <Name>Bonuses.cube</Name>
+      <FullPath>Bonuses.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Project Management.partitions</Name>
-          <FullPath>Project Management.partitions</FullPath>
+          <Name>Bonuses.partitions</Name>
+          <FullPath>Bonuses.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>Project Management 1.cube</Name>
-      <FullPath>Project Management 1.cube</FullPath>
+      <Name>Bugs.cube</Name>
+      <FullPath>Bugs.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Project Management 1.partitions</Name>
-          <FullPath>Project Management 1.partitions</FullPath>
+          <Name>Bugs.partitions</Name>
+          <FullPath>Bugs.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>Project Management 2.cube</Name>
-      <FullPath>Project Management 2.cube</FullPath>
+      <Name>HoursOfJob.cube</Name>
+      <FullPath>HoursOfJob.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Project Management 2.partitions</Name>
-          <FullPath>Project Management 2.partitions</FullPath>
+          <Name>HoursOfJob.partitions</Name>
+          <FullPath>HoursOfJob.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -72,6 +72,16 @@
       <FullPath>Project Management.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
+  <Roles>
+    <ProjectItem>
+      <Name>Read.role</Name>
+      <FullPath>Read.role</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ReadUpdate.role</Name>
+      <FullPath>ReadUpdate.role</FullPath>
+    </ProjectItem>
+  </Roles>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
