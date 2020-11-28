@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[HoursOfJob] (
     [IdHourOfJob] INT  NOT NULL,
-    [IdPerson]    INT  NULL,
-    [IdProject]   INT  NULL,
+    [IdPerson]    INT  NOT NULL,
+    [IdProject]   INT  NOT NULL,
     [IdDate]      INT  NOT NULL,
     [Value]       REAL NOT NULL,
     CONSTRAINT [PK_HoursOfJob] PRIMARY KEY CLUSTERED ([IdHourOfJob] ASC),

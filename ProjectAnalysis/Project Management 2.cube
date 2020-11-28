@@ -1,0 +1,212 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e8a69cc9-6611-4b8b-8687-6550b378a9ae" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Project Management 2</ID>
+  <Name>Project Management 2</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="0d430755-083b-444b-8b96-25bef7bc9f88">
+      <ID>Persons</ID>
+      <Name>Persons</Name>
+      <DimensionID>Persons</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7f23fa13-b6d1-4e6a-96a1-e7ba3cc1cb99">
+          <AttributeID>Id Person</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d560944e-36a5-4b71-8841-6af2e57ee77d">
+          <AttributeID>Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="57b39056-180b-44ae-8bdc-822ba8b6e6cd">
+      <ID>Projects</ID>
+      <Name>Projects</Name>
+      <DimensionID>Projects</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c611ec0d-6a8a-4f15-b5ed-13f23599cfb2">
+          <AttributeID>Id Project</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0f0fd5f1-5974-4839-98b9-7d7930482455">
+          <AttributeID>Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f7473d9d-6ca4-4455-9fea-6d900e29dea1">
+          <AttributeID>Fund</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="53e06028-8a97-452d-bac8-dd2f0e4cb66e">
+          <AttributeID>Add Cost</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5e44bf44-58d7-460f-8a0a-7f9a7652ad50">
+          <HierarchyID>Иерархия</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="96f89819-83d5-4f72-bd9f-c309317cb2b4">
+      <ID>Dates</ID>
+      <Name>Dates</Name>
+      <DimensionID>Dates</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c0efa000-92ab-4d5a-aed1-cf83c6b59fd4">
+          <AttributeID>Id Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dd985a08-3bd8-4c30-909e-3b9fa9352bd4">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d018740d-0dd5-49d2-88cf-750e6a47a1ea">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5fad0d3f-11e5-42c3-aef9-30b32e4c15f9">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c5113ebc-9666-4067-9a7a-01178d66015f">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5b774f5d-75a2-448f-a9a7-46c9beeb1328">
+          <AttributeID>Day Of Week</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="55bf05e8-c0f5-49fd-9f7a-d2a7d378894d">
+          <HierarchyID>Иерархия</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="91a38b6a-79d3-455f-ac2e-13ce66e7227e">
+      <ID>Hours Of Job</ID>
+      <Name>Hours Of Job</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="5a7ff6e7-6b90-4702-bef0-ae43a38f8b20">
+          <ID>Value</ID>
+          <Name>Value</Name>
+          <Source dwd:design-time-name="059c9706-fd9d-40c5-ac79-93c23e50f593">
+            <DataType>Single</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ec22481b-95e8-4cf9-b43a-e728d2569119">
+              <TableID>dbo_HoursOfJob</TableID>
+              <ColumnID>Value</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fc0fb7df-e91e-4912-902c-35f0af1a7bca">
+          <ID>Value In Days</ID>
+          <Name>Value In Days</Name>
+          <Source dwd:design-time-name="44b6607a-acc0-407f-8972-6a1b4ca3a457">
+            <DataType>Single</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6fd35a04-dd15-495a-a430-2cf92324a3f4">
+              <TableID>dbo_HoursOfJob</TableID>
+              <ColumnID>ValueInDays</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b5c9bb46-014d-4d81-98cf-ab31ec32bad7">
+          <CubeDimensionID>Persons</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f327276e-fac4-4eed-bdb6-a19911b39da0">
+              <AttributeID>Id Person</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6ed4c4c6-0071-4525-b189-08097a2a1608">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="615f618d-8be4-48bd-9cb4-ef935d7ab9c4">
+                    <TableID>dbo_HoursOfJob</TableID>
+                    <ColumnID>IdPerson</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d78bf222-69a7-4faa-b3a9-2149ebd7b31b">
+          <CubeDimensionID>Projects</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ddfe3a31-c6cd-44ba-b8d3-7a03939b0955">
+              <AttributeID>Id Project</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="02d5b1a7-0590-4671-bdb5-0378310d94e5">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="27a009c1-5515-4170-b0b1-77a32531eac7">
+                    <TableID>dbo_HoursOfJob</TableID>
+                    <ColumnID>IdProject</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ec4b6135-ba4f-458b-946d-0efe1ea9fdc7">
+          <CubeDimensionID>Dates</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="557bec49-cc7b-4112-ad58-8898fba950f0">
+              <AttributeID>Id Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ebbdcbbe-d443-42f6-a40b-2e4b6d7ada8f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f9868333-1489-4b07-bc61-f15233026e21">
+                    <TableID>dbo_HoursOfJob</TableID>
+                    <ColumnID>IdDate</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="7440a364-5d02-4396-88e2-5f14d1a01d3d">
+    <DataSourceViewID>Project Management</DataSourceViewID>
+  </Source>
+</Cube>

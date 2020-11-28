@@ -6,6 +6,38 @@
     <Name>ProjectAnalysis.database</Name>
     <FullPath>ProjectAnalysis.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Project Management.cube</Name>
+      <FullPath>Project Management.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Project Management.partitions</Name>
+          <FullPath>Project Management.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Project Management 1.cube</Name>
+      <FullPath>Project Management 1.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Project Management 1.partitions</Name>
+          <FullPath>Project Management 1.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Project Management 2.cube</Name>
+      <FullPath>Project Management 2.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Project Management 2.partitions</Name>
+          <FullPath>Project Management 2.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Persons.dim</Name>
