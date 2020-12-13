@@ -90,7 +90,7 @@
           <ConfigurationSetting>
             <Id>Project Management</Id>
             <Name>Project Management</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=SVETA-ПК;Integrated Security=SSPI;Initial Catalog=ProjectManagement</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-9272AGI;Integrated Security=SSPI;Initial Catalog=ProjectManagement</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
