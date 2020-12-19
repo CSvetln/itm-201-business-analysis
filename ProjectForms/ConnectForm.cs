@@ -103,16 +103,5 @@ namespace ProjectForms
                 MessageBox.Show(ex.Message);
             }
         }
-
-        private void buttonOK_Click(object sender, EventArgs e)
-        {
-            this.Close();
-
-        }
-
-        private void ConnectForm_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

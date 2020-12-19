@@ -69,7 +69,7 @@ namespace ProjectForms
             this.tabPageConnect.Location = new System.Drawing.Point(4, 25);
             this.tabPageConnect.Name = "tabPageConnect";
             this.tabPageConnect.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageConnect.Size = new System.Drawing.Size(756, 419);
+            this.tabPageConnect.Size = new System.Drawing.Size(756, 333);
             this.tabPageConnect.TabIndex = 0;
             this.tabPageConnect.Text = "Подключение";
             this.tabPageConnect.UseVisualStyleBackColor = true;
@@ -203,7 +203,6 @@ namespace ProjectForms
             this.Controls.Add(this.tabControlOverview);
             this.Name = "ConnectForm";
             this.Text = "Управление проектами";
-            this.Load += new System.EventHandler(this.ConnectForm_Load);
             this.tabControlOverview.ResumeLayout(false);
             this.tabPageConnect.ResumeLayout(false);
             this.tabPageConnect.PerformLayout();

@@ -1,6 +1,6 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ab10e305-f791-43c4-9d65-2269615e0828" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a4d07fbd-8128-474a-9717-590e766b002a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Project Management 1</ID>
-  <Name>Премии</Name>
+  <Name>Баги</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5490" scrolltop="-2464" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="23453" y="11282" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5490" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="23453" y="13631" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc00009001b0300100065461686f6d61" />
             </font>
@@ -109,7 +109,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-2464</Value>
+      <Value>-5000</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -127,41 +127,41 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="0e7a2c94-6dd7-4aaa-a61e-ca58cfb3766c">
+    <Dimension dwd:design-time-name="9cb80456-d5e0-41a6-b3c8-73cfb1dd0c72">
       <ID>Stages</ID>
-      <Name>Stages</Name>
+      <Name>Стадии</Name>
       <DimensionID>Stages</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="39e812aa-bdf8-44f2-bf18-cf3f7ed40537">
+        <Attribute dwd:design-time-name="66642e54-a7b5-43c9-9409-6bbc1238900c">
           <AttributeID>Id Stage</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="21e82b19-c7ef-4d44-8d05-51501621e495">
+        <Attribute dwd:design-time-name="6b4b398f-84b8-40a1-a166-e915bc4a1a29">
           <AttributeID>Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="4af326f8-29b7-4654-bfd3-5845601be3d0">
+    <Dimension dwd:design-time-name="c2f610ad-adc0-4a64-ac3c-f8e14bae089d">
       <ID>Projects</ID>
-      <Name>Projects</Name>
+      <Name>Проекты</Name>
       <DimensionID>Projects</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="705a63c4-55ed-4016-8760-63a8fbe74175">
+        <Attribute dwd:design-time-name="b9d0cbf4-f383-4d17-b27d-b734ecc67cb1">
           <AttributeID>Id Project</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="75e052bf-4406-4b6d-ab26-6b7b365c3df7">
+        <Attribute dwd:design-time-name="99e1181c-b495-4d37-a890-11a095932317">
           <AttributeID>Name Project</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0e074c4c-e407-4f31-8e20-1347d4ae719f">
+        <Attribute dwd:design-time-name="58142016-517e-4cfd-bdde-5323aa5649fc">
           <AttributeID>Fund</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9984a930-15e8-4550-bbcb-7bf25e50ec2c">
+        <Attribute dwd:design-time-name="aae1a5f2-8aaa-4cc8-b4eb-f87adf93e096">
           <AttributeID>Add Cost</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <CubePermissions>
-    <CubePermission dwd:design-time-name="1922ba4a-5f92-4f34-be1e-d9dcdcdd7e43">
+    <CubePermission dwd:design-time-name="770f01ca-056c-4217-981a-2e4d7717a6df">
       <ID>CubePermission</ID>
       <Name>CubePermission</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -171,7 +171,7 @@
       <Write>Allowed</Write>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="3de60dc8-6459-4278-a20c-f0c24181ecfb">
+    <CubePermission dwd:design-time-name="aeebaa50-759e-4fa1-ad61-7200044cd8b6">
       <ID>CubePermission 1</ID>
       <Name>CubePermission 1</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -182,7 +182,7 @@
     </CubePermission>
   </CubePermissions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="5be6113e-40d1-462f-a248-46273cf60b73">
+    <MeasureGroup dwd:design-time-name="32b5d7e5-b556-439c-8442-26b9180a7958">
       <ID>Bugs</ID>
       <Name>Баги</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -190,12 +190,12 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="01e782e8-ba5b-4ca7-9e6e-b850ee82a3ea">
+        <Measure dwd:design-time-name="0edfb7d0-9f4a-410f-95b7-98e8fa0c2615">
           <ID>Count Of Bugs</ID>
           <Name>Количество багов</Name>
-          <Source dwd:design-time-name="575bf3db-32b3-4743-ab96-334695eb8112">
+          <Source dwd:design-time-name="7fb98e50-77df-49d3-afef-0f9d40c51daa">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c633850e-7406-4476-b10a-e2d7e6b5e042">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cf7339ec-4a1f-4c1e-ab3f-8a0e2e4f6a28">
               <TableID>dbo_Bugs</TableID>
               <ColumnID>CountOfBugs</ColumnID>
             </Source>
@@ -205,15 +205,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b31fb826-6954-443d-a95a-8791b15dd199">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3ebf4427-dfed-4e03-9e48-113bbaf4fe21">
           <CubeDimensionID>Stages</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="30005fbb-56b3-488f-974b-e97de28689f2">
+            <Attribute dwd:design-time-name="f78a5033-9c5b-404a-9467-7527a6c4496e">
               <AttributeID>Id Stage</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="de13ab63-2180-4734-8129-8bddd22c478e">
+                <KeyColumn dwd:design-time-name="882c3da8-128e-4e26-884d-e29fd5ad5c0a">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f7520d07-a920-4505-b5e3-a7b0739b311d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6f82e543-b0d3-4907-937d-cb66a32ca79d">
                     <TableID>dbo_Bugs</TableID>
                     <ColumnID>IdStage</ColumnID>
                   </Source>
@@ -223,15 +223,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d3ce100d-ecf3-4d5d-959a-aecbcfa186a8">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="123f2040-098d-45b9-8325-381a987d5b2b">
           <CubeDimensionID>Projects</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="047dcbe5-552e-49aa-be95-0b172e1f62b7">
+            <Attribute dwd:design-time-name="8ce118cf-e299-4ad5-92c0-c218be19a660">
               <AttributeID>Id Project</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="5f181419-a74d-4957-81bf-22a8de5964a7">
+                <KeyColumn dwd:design-time-name="1369f7f1-1aa4-4da0-8670-5882cf4b9ac5">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="86fa670e-bdf5-42dc-aaf7-c47cf94d6a1e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="386d9ef0-45b1-461a-8d4d-b1c4d271f588">
                     <TableID>dbo_Bugs</TableID>
                     <ColumnID>IdProject</ColumnID>
                   </Source>
@@ -245,11 +245,11 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="5991b4cd-d0ec-47c2-9efe-5be21dba2fc6">
+  <Source dwd:design-time-name="8a09ff0e-921f-422d-9efb-8d7a047dec6c">
     <DataSourceViewID>Project Management</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="d33e8866-eb9e-428f-b2f1-f6c2f563b147">
+    <MdxScript dwd:design-time-name="893094aa-8bea-4745-84b7-47d6f4796a36">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
